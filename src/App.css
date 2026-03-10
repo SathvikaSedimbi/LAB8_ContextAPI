@@ -1,0 +1,57 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  background-color: #f9f9f9;
+}
+
+.app {
+  text-align: center;
+  padding: 2rem;
+}
+
+.header.light {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.header.dark {
+  background-color: #333;
+  color: #f4f4f4;
+}
+
+.theme-toggle,
+.user-panel {
+  margin: 1.5rem auto;
+  padding: 1rem;
+  width: 300px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.theme-toggle.light,
+.user-panel.light {
+  background: #fff;
+  color: #222;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.theme-toggle.dark,
+.user-panel.dark {
+  background: #444;
+  color: #fff;
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.2);
+}
+
+button {
+  background: #00ffea;
+  border: none;
+  color: white;
+  padding: 0.5rem 1rem;
+  margin-top: 0.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #001bb3;
+}
